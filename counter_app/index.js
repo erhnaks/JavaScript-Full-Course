@@ -23,3 +23,12 @@ function saveCount() {
 
   saveEl.textContent += countStr;
 }
+
+function reset() {
+  countreset = 0;
+
+  countEl.textContent = countreset;
+  count = 0;
+  // saveEl.textContent = countreset;
+  // numberOfPeople.textContent = countreset;
+}

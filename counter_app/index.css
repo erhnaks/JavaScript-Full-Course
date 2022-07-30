@@ -16,3 +16,7 @@ button {
 #save-bttn {
   background-color: darkblue;
 }
+
+#reset-bttn {
+  background-color: rgb(178, 178, 38);
+}

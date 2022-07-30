@@ -8,14 +8,14 @@ let count = 0;
 
 function increment() {
   count += +1;
-  countEl.innerHTML = count;
+  countEl.textContent = count;
   console.log(count);
 }
 
 function savePeople() {
   numberOfPeople.innerHTML = count;
 
-  savePeople.innerHTML = count;
+  savePeople.textContent = count;
 }
 
 function saveCount() {

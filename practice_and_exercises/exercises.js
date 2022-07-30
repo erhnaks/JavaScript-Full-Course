@@ -29,3 +29,19 @@
 // bonusPoints = bonusPoints + 45;
 
 // console.log(bonusPoints); //70;
+
+//Using functions
+
+function countDown() {
+  console.log(5);
+  console.log(4);
+  console.log(3);
+  console.log(2);
+  console.log(1);
+}
+
+countDown();
+console.log("GO GO! GO!");
+console.log("Ready for the second race?");
+countDown();
+console.log("Go! Go! Go! Go! Go! Go! Go! Go! Go! Go!");

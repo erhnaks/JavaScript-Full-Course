@@ -1,4 +1,6 @@
+let saveEl = document.getElementById("save-el");
 let countEl = document.getElementById("count-el");
+let numberOfPeople = document.getElementById("count-save");
 
 console.log(countEl);
 
@@ -10,13 +12,14 @@ function increment() {
   console.log(count);
 }
 
-let numberOfPeople = document.getElementById("count-save");
-
-console.log(numberOfPeople);
-
 function savePeople() {
   numberOfPeople.innerHTML = count;
 
   savePeople.innerHTML = count;
-  console.log(numberOfPeople);
+}
+
+function saveCount() {
+  let countStr = count + " => ";
+
+  saveEl.textContent += countStr;
 }

@@ -51,19 +51,32 @@
 // }
 
 // myLogger();
-let lap1 = 34;
-let lap2 = 33;
-let lap3 = 36;
 
-function logLapTime() {
-  
-  // lapTime = lap1 + lap2 + lap3;
+// let lap1 = 34;
+// let lap2 = 33;
+// let lap3 = 36;
 
-  // console.log(lapTime);
+// function logLapTime() {
 
-  // Another way of writing by getting the laps out side of the scope of the function.
+// lapTime = lap1 + lap2 + lap3;
 
-  console.log(lap1 + lap2 + lap3);
-}
+// console.log(lapTime);
 
-logLapTime();
+// Another way of writing by getting the laps out side of the scope of the function.
+
+//   console.log(lap1 + lap2 + lap3);
+// }
+
+// logLapTime();
+
+// let lapsCompleted = 0;
+
+// function lapIncrement() {
+//   lapsCompleted = lapsCompleted + 1;
+// }
+
+// lapIncrement();
+// lapIncrement();
+// lapIncrement();
+
+// console.log(lapsCompleted);

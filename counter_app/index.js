@@ -1,4 +1,5 @@
+function increment() {
 
-let count = 0;
+  console.log('increment');
 
-console.log(count);
+}

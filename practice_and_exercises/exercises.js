@@ -91,12 +91,19 @@
 //   console.log("You can not enter the club!");
 // }
 
-let age = 100
+// let age = 100
 
-if (age < 100) {
-  console.log("You are not eligible");
-} else if (age === 100) {
-  console.log("Here is your birthday card from the King!");
-} else {
-  console.log("Not eligible you've already got one!");
+// if (age < 100) {
+//   console.log("You are not eligible");
+// } else if (age === 100) {
+//   console.log("Here is your birthday card from the King!");
+// } else {
+//   console.log("Not eligible you've already got one!");
+// }
+
+// for loop exercise;
+
+//  starting from=> Finishing Before=>Step Size +5
+for (let count = 0; count < 101; count += 5) {
+  console.log(count);
 }

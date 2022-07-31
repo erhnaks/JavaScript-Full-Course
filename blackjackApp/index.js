@@ -16,8 +16,15 @@ let cardEl = document.querySelector("#card-el");
 let newCardEl = document.querySelector("#newCard-el");
 
 function getRandomCard() {
-  let number = Math.floor(Math.random() * 11) + 1;
-  return number;
+  let randomNumber = Math.floor(Math.random() * 11) + 1;
+
+  if (randomNumber === 1) {
+    return 11;
+  } else if (randomNumber > 10) {
+    return 10;
+  } else {
+    return randomNumber;
+  }
 }
 
 function startGame() {

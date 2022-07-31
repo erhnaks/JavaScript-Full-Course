@@ -104,6 +104,10 @@
 // for loop exercise;
 
 //  starting from=> Finishing Before=>Step Size +5
-for (let count = 0; count < 101; count += 5) {
-  console.log(count);
+// for (let count = 0; count < 101; count += 5) {
+//   console.log(count);
+// }
+
+for (let i = 10; i < 101; i += 10) {
+  console.log(i);
 }

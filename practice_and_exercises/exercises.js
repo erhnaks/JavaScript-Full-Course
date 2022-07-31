@@ -80,3 +80,13 @@
 // lapIncrement();
 
 // console.log(lapsCompleted);
+
+// If else statements exercise;
+
+let age = 22;
+
+if (age >= 21) {
+  console.log("Welcome to the club");
+} else {
+  console.log("You can not enter the club!");
+}

@@ -16,6 +16,10 @@ let cardEl = document.querySelector("#card-el");
 let newCardEl = document.querySelector("#newCard-el");
 
 function startGame() {
+  renderGame();
+}
+
+function renderGame() {
   if (sum <= 20) {
     message = "Do you want to draw an another card?";
   } else if (sum === 21) {
@@ -40,5 +44,5 @@ function newCard() {
 
   sum += thirdCard;
 
-  startGame();
+  renderGame();
 }

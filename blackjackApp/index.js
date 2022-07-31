@@ -16,7 +16,8 @@ let cardEl = document.querySelector("#card-el");
 let newCardEl = document.querySelector("#newCard-el");
 
 function getRandomCard() {
-  return 5;
+  let number = Math.floor(Math.random() * 11) + 1;
+  return number;
 }
 
 function startGame() {

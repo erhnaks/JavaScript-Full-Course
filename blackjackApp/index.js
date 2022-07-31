@@ -1,6 +1,7 @@
 let firstCard = 10;
 let secondCard = 7;
 let thirdCard = 4;
+let cards = [firstCard, secondCard];
 let sum = firstCard + secondCard;
 let hasBlackJack = false;
 let isAlive = true;
@@ -36,13 +37,13 @@ function renderGame() {
 
   sumEl.textContent = "Sum: " + sum;
 
-  cardEl.textContent = "Cards: " + firstCard + " " + secondCard;
+  cardEl.textContent = "Cards: " + cards;
 }
 
 function newCard() {
   console.log("do you want to draw an another card?");
 
   sum += thirdCard;
-
+  cards = [firstCard, secondCard, thirdCard];
   renderGame();
 }

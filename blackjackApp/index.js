@@ -5,6 +5,8 @@ let hasBlackJack = false;
 let isAlive = true;
 let message = "";
 
+let messageEl = document.getElementById("message-el");
+
 function startGame() {
   if (sum <= 20) {
     message = "Do you want to draw an another card?";
@@ -16,8 +18,7 @@ function startGame() {
     isAlive = false;
   }
 
-  //console.log(hasBlackJack);
   console.log(isAlive);
 
-  console.log(message);
+  messageEl.textContent = message;
 }
